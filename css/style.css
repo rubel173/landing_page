@@ -1,0 +1,314 @@
+@font-face{
+	src: url(fonts/playfair-display/PlayfairDisplay-Bold.otf);
+	font-family: PlayfairDisplay-Bold;
+}
+@font-face{
+	src: url(fonts/playfair-display/PlayfairDisplay-Regular.otf);
+	font-family: PlayfairDisplay-Regular;
+}
+@font-face{
+	src: url(fonts/ubuntu/Ubuntu-R.ttf);
+	font-family: Ubuntu-R;
+}
+@font-face{
+	src: url(fonts/ubuntu/Ubuntu-L.ttf);
+	font-family: Ubuntu-L;}
+
+
+/*header start*/
+body{
+	margin: 0;
+	padding: 0;
+	border-bottom: 2px solid #626262;
+}
+.wrapper{
+	width: 90%;
+	padding: 20px 10px 0px 20px;
+	margin: 0px auto;
+	overflow: hidden;
+	/*border: 2px solid red;*/
+}
+.logo{
+	width: 10%;
+	/*border: 2px solid red;*/
+	float: left;
+}
+.logo img{
+	padding-top:15px ;
+	width: 100%;
+	
+}
+.menu{
+	width: 60%;
+	float: right;
+	
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: right;
+
+}
+.menu ul li a{
+	font-size: 16px;
+	font-family: PlayfairDisplay-Regular;
+	font-weight: 400;
+	color: #626262;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 97px;
+
+}
+/*header end*/
+/*banner start*/
+.wrapper2{
+	width: 90%;
+	margin: 48px auto;
+	/*border: 2px solid red;*/
+}
+.img img{
+	width: 100%;
+}
+/*banner end*/
+/*describe start*/
+.detail{
+	width: 80%;
+	margin: 0px auto;
+	/*border: 2px solid red;*/
+}
+.detail h2{
+	font-family: Ubuntu-L;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.detail h1{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+
+}
+.detail p{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	text-align: center;
+	padding-bottom: 30px;
+	line-height: 24px;
+	word-spacing: 1px;
+}
+/*describe end*/
+/*service start*/
+.services{
+	width: 80%;
+	margin: 0px auto;
+	/*border: 2px solid red;*/
+	overflow: hidden;
+}
+.single{
+	width: 45%;
+	/*border: 2px solid green;*/
+	float: left;
+	margin-top: 140px;
+	
+}
+.single2, .single4{
+	margin-left: 101.09px;
+}
+
+}
+.img{
+
+}
+.img img{
+	width: 100%;
+}
+.text h2{
+	font-family: Ubuntu-L;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	line-height: auto;
+	text-transform: uppercase;
+}
+.text h1{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+	line-height: auto;
+	text-transform: capitalize;
+}	
+.text p{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	line-height: 24px;
+}
+/*service ent*/
+/*signup start*/
+.sign{
+	align-items: center;
+	width: 100%;
+	background-color: #F0F0F0;
+	position: relative;
+}
+/*signup*/
+.news{
+	margin-top: 100px;
+	background-color: #f0f0f0;
+	padding: 70px 0px;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	width: 400px;
+/*	border: 1px solid ;*/
+	margin: 0 auto;
+	position: relative;
+}
+.s_form input{
+	font-family: PlayfairDiplay-Regular;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #626262;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+/*newsend*/
+/*servi start*/
+.servi{
+	width: 80%;
+	margin: 0px auto;
+	/*border: 2px solid red;*/
+	overflow: hidden;
+}
+.signl{
+	margin-top: 100px;
+	width: 45%;
+	/*border: 2px solid red;*/
+	float: left;
+}
+.sig{
+	margin-left: 101px;
+}
+.ima img{
+	width: 100%;
+}
+.tex h2 {
+	font-family: Ubuntu-L;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	line-height: auto;
+	text-transform: uppercase;
+}
+.tex h1{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+	line-height: auto;
+	text-transform: capitalize;
+}
+.tex p{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	line-height: 24px;
+}
+/*servi end*/
+/*link*/
+.lin{
+	width: 9%;
+	margin: 165px auto 190px;
+	overflow: hidden;
+}
+.link a{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	text-decoration: none;
+	border: 2px solid #626262 ;
+	padding: 10px;
+	float: left;
+}
+/*link*/
+/*footer start*/
+.footer{
+	width: 100%;
+	background-color: #F0F0F0;
+}
+.foote{
+	width: 80%;
+/*	border: 2px solid red;*/
+	margin: 0px auto;
+	overflow: hidden;
+}
+.condi{
+	width: 30%;
+	float: left;
+	padding-top: 25px;
+}
+.condi a{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+	padding: 20px;
+}
+.social{
+	width: 30%;
+	float: right;
+}
+.social h2{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+	float: left;
+	margin: 25px 0px 25px 90px;
+}
+.social a{
+	width: 10%;
+	float: right;
+	padding: 15px 10px ;
+}
+.social a img{
+	width: 100%;
+}
+/*footer end*/
